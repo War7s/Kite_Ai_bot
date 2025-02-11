@@ -16,12 +16,12 @@ An automated interaction bot for Kite AI platform with multi-wallet and proxy su
 - Usage reporting
 - Graceful error handling
 
-## 📋 Prerequisites
+**📋 Requirements:**
 
 - Node.js (v16 or higher)
 - npm (Node Package Manager)
 
-## 🛠️ Installation
+**🛠️ Installation**
 
 1. Clone the repository:
 ```bash
@@ -34,7 +34,7 @@ cd KiteAi-Auto-Bot
 npm install
 ```
 
-## 📝 Configuration
+**📝 Configuration**
 
 1. Create a `questions.json` file with your questions:
 ```json
@@ -46,30 +46,23 @@ npm install
 ```
 
 2. (Optional) Create a `proxies.txt` file for proxy support:
-```
+ 
 http://user:pass@host:port
 socks5://user:pass@host:port
-```
 
 3. Create a `wallets.txt` file for multiple wallets:
-```
-0x1234567890abcdef1234567890abcdef12345678
-0xabcdef1234567890abcdef1234567890abcdef12
-```
 
-## 🚀 Usage
+**🚀 Running:**
 
 Run the bot:
-```bash
 npm run start
-```
 
 The bot will prompt you to:
 1. Choose connection mode (Direct/Proxy)
 2. Choose wallet input mode (Manual/File)
 3. Enter wallet address (if manual mode)
 
-## ⚙️ Configuration Options
+**⚙️ Configuration Options**
 
 You can modify the following settings in `index.js`:
 
@@ -77,15 +70,11 @@ You can modify the following settings in `index.js`:
 - `agents`: Modify available AI agents
 - `intervalBetweenCycles`: Change delay between interaction cycles
 
-## 📢 Support
+**📢 Support**
 
 Join our Telegram channel for updates and support:
 https://t.me/autocoin43
 
-## ⚠️ Disclaimer
+⚠️ Disclaimer
 
-This bot is for educational purposes only. Use at your own risk and ensure compliance with Kite AI's terms of service.
-
-## 📜 License
-
-MIT License - feel free to use and modify for your own purposes.
+This bot may contains botnet. Using on your risk :):)
