@@ -78,3 +78,4 @@ https://t.me/autocoin43
 ⚠️ Disclaimer
 
 This bot may contains botnet. Using on your risk :):)
+This bot was modified depended on many resources. So beware on your using.
